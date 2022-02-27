@@ -47,16 +47,16 @@ function Download() {
               </UncontrolledTooltip>
               <Button
                 className="btn-neutral btn-icon btn-round"
-                color="linkedin"
-                href="https://www.linkedin.com/"
+                color="Whatsapp"
+                href="https://wa.me/+919941272071"
                 id="tooltip647117716"
                 size="lg"
                 target="_blank"
               >
-                <i className="fab fa-linkedin"></i>
+                <i className="fab fa-whatsapp"></i>
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip647117716">
-                Follow us
+                Contact us
               </UncontrolledTooltip>
               <Button
                 className="btn-neutral btn-icon btn-round"

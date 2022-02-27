@@ -23,10 +23,17 @@ function SM(props) {
             console.log(x.field);
             return (
               <Card key={i} style={{ width: "300px" }}>
-                <Container className="bg-info text-white">
-                  <CardHeader className="bg-info">
+                <Container
+                  style={{ backgroundColor: "#253662" }}
+                  className="text-white"
+                >
+                  <CardHeader style={{ backgroundColor: "#253662" }}>
                     <h3
-                      style={{ fontSize: "16px", paddingBottom: "10px" }}
+                      style={{
+                        fontSize: "16px",
+                        paddingBottom: "10px",
+                        color: "white",
+                      }}
                       className="title text-center"
                     >
                       {x.name}
