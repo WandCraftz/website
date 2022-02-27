@@ -35,12 +35,8 @@ function IndexHeader() {
         ></div>
         <Container>
           <div className="content-center brand">
-            <img
-              alt="..."
-              src={require("assets/img/Wand.png").default}
-              style={{ width: "700px", height: "700px" }}
-            ></img>
-            <h3 style={{ marginTop: "-200px", color: "white" }}>
+            <img alt="..." src={require("assets/img/WandL.png").default}></img>
+            <h3 style={{ color: "white" }}>
               Let us raise our wands to make you reach your business goals.
             </h3>
           </div>

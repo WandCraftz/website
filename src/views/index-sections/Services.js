@@ -23,21 +23,21 @@ function Services() {
         <Container className="text-center">
           <div>
             <Row>
-              <Col lg="4" sm="12">
+              <Col lg="4" sm="12" style={{ marginBottom: "50px" }}>
                 <Statistic
                   title="Projects"
                   value={14}
                   suffix={<LikeOutlined />}
                 />
               </Col>
-              <Col lg="4" sm="12">
+              <Col lg="4" sm="12" style={{ marginBottom: "50px" }}>
                 <Statistic
                   title="Hours worked"
                   value="12415 Hours"
                   suffix={<ClockCircleOutlined />}
                 />
               </Col>
-              <Col lg="4" sm="12">
+              <Col lg="4" sm="12" style={{ marginBottom: "50px" }}>
                 <Statistic
                   title="Cups of Tea"
                   value="270"
