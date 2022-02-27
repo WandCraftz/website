@@ -9,7 +9,7 @@ function DarkFooter() {
     <footer className="footer " data-background-color="black">
       <Container>
         <div className=" text-center" id="copyright">
-          © {new Date().getFullYear()}, Designed by WandCraft . Kumar .
+          © {new Date().getFullYear()}, Designed by WandCraft .
         </div>
       </Container>
     </footer>

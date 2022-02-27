@@ -47,11 +47,7 @@ function IndexNavbar() {
       <Navbar className={"fixed-top " + navbarColor} expand="lg" color="info">
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand
-              href="https://demos.creative-tim.com/now-ui-kit-react/#/index?ref=nukr-index-navbar"
-              target="_blank"
-              id="navbar-brand"
-            >
+            <NavbarBrand href="#" target="_blank" id="navbar-brand">
               Wand Craft
             </NavbarBrand>
             <button
