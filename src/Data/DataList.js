@@ -83,8 +83,8 @@ const softwareDevlopement = [
   {
     name: "Software Developement",
     field: [
-      "Mobile Application",
-      "Web Application",
+      "Mobile & Web Application ",
+      "Billing software",
       "Server Management And Hosting",
     ],
   },
@@ -92,8 +92,12 @@ const softwareDevlopement = [
 
 const billingSoftwares = [
   {
-    name: "Billing softwares",
-    field: ["Merchent", "Supermarkets ", "Textile and Others"],
+    name: "ERP ",
+    field: [
+      "Frappe - ERPNext",
+      "Frappe - custom application ",
+      "Frappe - cloud",
+    ],
   },
 ];
 
