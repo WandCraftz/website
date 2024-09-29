@@ -24,18 +24,17 @@ function IndexHeader() {
 
   return (
     <>
-      <div className="page-header clear-filter" filter-color="black">
+      <div className='page-header clear-filter' filter-color='black'>
         <div
-          className="page-header-image"
+          className='page-header-image'
           style={{
             backgroundImage:
               "url(" + require("assets/img/bg8.jpg").default + ")",
           }}
-          ref={pageHeader}
-        ></div>
+          ref={pageHeader}></div>
         <Container>
-          <div className="content-center brand">
-            <img alt="..." src={require("assets/img/WandL.png").default}></img>
+          <div className='content-center brand'>
+            <img alt='...' src={require("assets/img/WandIT.png").default}></img>
             <h3 style={{ color: "white" }}>
               Let us raise our wands to make you reach your business goals.
             </h3>

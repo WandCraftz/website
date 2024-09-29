@@ -37,7 +37,7 @@ function IndexNavbar() {
     <>
       {collapseOpen ? (
         <div
-          id="bodyClick"
+          id='bodyClick'
           onClick={() => {
             document.documentElement.classList.toggle("nav-open");
             setCollapseOpen(false);
@@ -46,57 +46,52 @@ function IndexNavbar() {
       ) : null}
       <Navbar
         className={"fixed-top " + navbarColor}
-        expand="lg"
-        style={{ backgroundColor: "#253662" }}
-      >
+        expand='lg'
+        style={{ backgroundColor: "#253662" }}>
         <Container>
-          <div className="navbar-translate">
-            <NavbarBrand href="#" target="_blank" id="navbar-brand">
-              Wand Craft
+          <div className='navbar-translate'>
+            <NavbarBrand href='#' target='_blank' id='navbar-brand'>
+              Wand Info Tech
             </NavbarBrand>
             <button
-              className="navbar-toggler navbar-toggler"
+              className='navbar-toggler navbar-toggler'
               onClick={() => {
                 document.documentElement.classList.toggle("nav-open");
                 setCollapseOpen(!collapseOpen);
               }}
               aria-expanded={collapseOpen}
-              type="button"
-            >
-              <span className="navbar-toggler-bar top-bar"></span>
-              <span className="navbar-toggler-bar middle-bar"></span>
-              <span className="navbar-toggler-bar bottom-bar"></span>
+              type='button'>
+              <span className='navbar-toggler-bar top-bar'></span>
+              <span className='navbar-toggler-bar middle-bar'></span>
+              <span className='navbar-toggler-bar bottom-bar'></span>
             </button>
           </div>
           <Collapse
-            className="justify-content-end"
+            className='justify-content-end'
             isOpen={collapseOpen}
-            navbar
-          >
+            navbar>
             <Nav navbar>
               <NavItem>
                 <NavLink
-                  href="#services"
+                  href='#services'
                   onClick={(e) => {
                     e.preventDefault();
                     document.getElementById("services").scrollIntoView();
-                  }}
-                >
-                  <i className="now-ui-icons education_paper"></i>
+                  }}>
+                  <i className='now-ui-icons education_paper'></i>
                   <p>Services</p>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="#pablo"
+                  href='#pablo'
                   onClick={(e) => {
                     e.preventDefault();
                     document
                       .getElementById("download-section")
                       .scrollIntoView();
-                  }}
-                >
-                  <i className="now-ui-icons business_badge"></i>
+                  }}>
+                  <i className='now-ui-icons business_badge'></i>
                   <p>Contact Us</p>
                 </NavLink>
               </NavItem>

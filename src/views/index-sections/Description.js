@@ -15,19 +15,19 @@ import {
 function Description() {
   return (
     <>
-      <div className="section">
-        <div className="text-center">
+      <div className='section'>
+        <div className='text-center'>
           <h4>What makes us who we are today…</h4>
           <hr style={{ width: "50%", backgroundColor: "#000" }} />
         </div>
         <br />
-        <Container className="text-center">
+        <Container className='text-center'>
           <div>
             <Row>
-              <Col lg="6" sm="12">
+              <Col lg='6' sm='12'>
                 <p>
-                  At WandCraft, we develop innovative and creative products and
-                  services that provide total communication and information
+                  AtWandInfoTech, we develop innovative and creative products
+                  and services that provide total communication and information
                   solutions. Among a plethora of services, web design and
                   development, tailor made applications, ERPs, CRMs, e-commerce
                   solutions, business-to-business applications,
@@ -39,13 +39,13 @@ function Description() {
                   exporting quality software worldwide.
                 </p>
               </Col>
-              <Col lg="6" sm="12">
+              <Col lg='6' sm='12'>
                 <p>
-                  The general purpose of WandCraft is to develop and promote
+                  The general purpose ofWandInfoTech is to develop and promote
                   advanced information technologies for multi-user operation.
                 </p>
                 <p>
-                  WandCraft's business philosophy is to assure the highest
+                  WandInfoTech's business philosophy is to assure the highest
                   quality product, total client satisfaction, timely delivery of
                   solutions and the best quality/price ratio found in the
                   industry.

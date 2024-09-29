@@ -6,11 +6,11 @@ import { Container } from "reactstrap";
 
 function TransparentFooter() {
   return (
-    <footer className="footer">
+    <footer className='footer'>
       <Container>
-        <div className=" text-center" id="copyright">
-          © {new Date().getFullYear()}, Designed by WandCraft . Coded by Naveen
-          Kumar .
+        <div className=' text-center' id='copyright'>
+          © {new Date().getFullYear()}, Designed byWandInfoTech . Coded by
+          Naveen Kumar .
         </div>
       </Container>
     </footer>
